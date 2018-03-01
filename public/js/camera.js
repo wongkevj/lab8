@@ -3,6 +3,7 @@ function initCamera() {
   // capture($('<Your code here>'),
   //        $('<Your code here>'),
   //        $('<Your code here>'));
+    console.log("initializing camera");
     capture($('#camera-video'),
           $('#camera-canvas'),
           $('#camera-button'));
